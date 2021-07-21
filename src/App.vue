@@ -3,24 +3,24 @@
 <template>
   <div id="app">
     <Posts/>
-    <Albums/> 
-    <Todos/>
+   <!-- <Albums/> 
+    <Todos/>-->
 
   </div>
 </template>
 
 <script>
-  import Albums from './components/Albums.vue'
+  // import Albums from './components/Albums.vue'
   import Posts from './components/Posts.vue'
-  import Todos from './components/Todos.vue'
+  // import Todos from './components/Todos.vue'
 
 
 export default {
   name: 'App',
   components: {
      Posts,
-     Albums,
-    Todos,
+    //  Albums,
+    // Todos,
    
   }
 }
